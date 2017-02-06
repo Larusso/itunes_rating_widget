@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C35AE4A9142947AD00633E02 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C35AE4A8142947AD00633E02 /* Cocoa.framework */; };
+		C35AE4B7142947AD00633E02 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C35AE4A8142947AD00633E02 /* Cocoa.framework */; };
+		C35AE4BA142947AD00633E02 /* libLarussoSTD.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C35AE4A5142947AD00633E02 /* libLarussoSTD.a */; };
+		C35AE4C0142947AD00633E02 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C35AE4BE142947AD00633E02 /* InfoPlist.strings */; };
+		C35AE4C3142947AD00633E02 /* LarussoSTDLibTests.h in Resources */ = {isa = PBXBuildFile; fileRef = C35AE4C2142947AD00633E02 /* LarussoSTDLibTests.h */; };
+		C35AE4C5142947AD00633E02 /* LarussoSTDLibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C35AE4C4142947AD00633E02 /* LarussoSTDLibTests.m */; };
+		C36ED53C142F36B600A83F0B /* TSBorderlessWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = C36ED53A142F36B600A83F0B /* TSBorderlessWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C36ED53D142F36B600A83F0B /* TSBorderlessWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = C36ED53B142F36B600A83F0B /* TSBorderlessWindow.m */; };
+		C39DCB6D142BE65600EA4761 /* TSAppleScriptController.h in Headers */ = {isa = PBXBuildFile; fileRef = C39DCB6B142BE65600EA4761 /* TSAppleScriptController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C39DCB6E142BE65600EA4761 /* TSAppleScriptController.m in Sources */ = {isa = PBXBuildFile; fileRef = C39DCB6C142BE65600EA4761 /* TSAppleScriptController.m */; };
+		C39DEDD7143F700600C443F1 /* TSMouseActionViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = C39DEDD6143F700600C443F1 /* TSMouseActionViewDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C39DEDDF143F723C00C443F1 /* TSMouseActionView.h in Headers */ = {isa = PBXBuildFile; fileRef = C39DEDDD143F723C00C443F1 /* TSMouseActionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C39DEDE0143F723C00C443F1 /* TSMouseActionView.m in Sources */ = {isa = PBXBuildFile; fileRef = C39DEDDE143F723C00C443F1 /* TSMouseActionView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C35AE4B8142947AD00633E02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C35AE49C142947AD00633E02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C35AE4A4142947AD00633E02;
+			remoteInfo = LarussoSTDLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C31C8128142F43EA00C8863A /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		C35AE4A5142947AD00633E02 /* libLarussoSTD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLarussoSTD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C35AE4A8142947AD00633E02 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C35AE4AB142947AD00633E02 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C35AE4AC142947AD00633E02 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C35AE4AD142947AD00633E02 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C35AE4B0142947AD00633E02 /* LarussoSTDLib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LarussoSTDLib-Prefix.pch"; sourceTree = "<group>"; };
+		C35AE4B6142947AD00633E02 /* LarussoSTDLibTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LarussoSTDLibTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C35AE4BD142947AD00633E02 /* LarussoSTDLibTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LarussoSTDLibTests-Info.plist"; sourceTree = "<group>"; };
+		C35AE4BF142947AD00633E02 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C35AE4C1142947AD00633E02 /* LarussoSTDLibTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LarussoSTDLibTests-Prefix.pch"; sourceTree = "<group>"; };
+		C35AE4C2142947AD00633E02 /* LarussoSTDLibTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LarussoSTDLibTests.h; sourceTree = "<group>"; };
+		C35AE4C4142947AD00633E02 /* LarussoSTDLibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LarussoSTDLibTests.m; sourceTree = "<group>"; };
+		C36ED53A142F36B600A83F0B /* TSBorderlessWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSBorderlessWindow.h; sourceTree = "<group>"; };
+		C36ED53B142F36B600A83F0B /* TSBorderlessWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSBorderlessWindow.m; sourceTree = "<group>"; };
+		C39DCB6B142BE65600EA4761 /* TSAppleScriptController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSAppleScriptController.h; sourceTree = "<group>"; };
+		C39DCB6C142BE65600EA4761 /* TSAppleScriptController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSAppleScriptController.m; sourceTree = "<group>"; };
+		C39DEDD6143F700600C443F1 /* TSMouseActionViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSMouseActionViewDelegate.h; sourceTree = "<group>"; };
+		C39DEDDD143F723C00C443F1 /* TSMouseActionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSMouseActionView.h; sourceTree = "<group>"; };
+		C39DEDDE143F723C00C443F1 /* TSMouseActionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSMouseActionView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C35AE4A2142947AD00633E02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C35AE4A9142947AD00633E02 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C35AE4B2142947AD00633E02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C35AE4B7142947AD00633E02 /* Cocoa.framework in Frameworks */,
+				C35AE4BA142947AD00633E02 /* libLarussoSTD.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C31C816C14323FE800C8863A /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				C39DEDD6143F700600C443F1 /* TSMouseActionViewDelegate.h */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		C35AE49A142947AD00633E02 = {
+			isa = PBXGroup;
+			children = (
+				C31C8128142F43EA00C8863A /* Carbon.framework */,
+				C35AE4AE142947AD00633E02 /* LarussoSTDLib */,
+				C35AE4BB142947AD00633E02 /* LarussoSTDLibTests */,
+				C35AE4A7142947AD00633E02 /* Frameworks */,
+				C35AE4A6142947AD00633E02 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C35AE4A6142947AD00633E02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C35AE4A5142947AD00633E02 /* libLarussoSTD.a */,
+				C35AE4B6142947AD00633E02 /* LarussoSTDLibTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C35AE4A7142947AD00633E02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C35AE4A8142947AD00633E02 /* Cocoa.framework */,
+				C35AE4AA142947AD00633E02 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C35AE4AA142947AD00633E02 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C35AE4AB142947AD00633E02 /* AppKit.framework */,
+				C35AE4AC142947AD00633E02 /* CoreData.framework */,
+				C35AE4AD142947AD00633E02 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C35AE4AE142947AD00633E02 /* LarussoSTDLib */ = {
+			isa = PBXGroup;
+			children = (
+				C31C816C14323FE800C8863A /* Protocols */,
+				C36ED538142F369600A83F0B /* View */,
+				C35AE4AF142947AD00633E02 /* Supporting Files */,
+				C39DCB70142BE6EE00EA4761 /* Apple Scripting */,
+			);
+			path = LarussoSTDLib;
+			sourceTree = "<group>";
+		};
+		C35AE4AF142947AD00633E02 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C35AE4B0142947AD00633E02 /* LarussoSTDLib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C35AE4BB142947AD00633E02 /* LarussoSTDLibTests */ = {
+			isa = PBXGroup;
+			children = (
+				C35AE4C2142947AD00633E02 /* LarussoSTDLibTests.h */,
+				C35AE4C4142947AD00633E02 /* LarussoSTDLibTests.m */,
+				C35AE4BC142947AD00633E02 /* Supporting Files */,
+			);
+			path = LarussoSTDLibTests;
+			sourceTree = "<group>";
+		};
+		C35AE4BC142947AD00633E02 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C35AE4BD142947AD00633E02 /* LarussoSTDLibTests-Info.plist */,
+				C35AE4BE142947AD00633E02 /* InfoPlist.strings */,
+				C35AE4C1142947AD00633E02 /* LarussoSTDLibTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C36ED538142F369600A83F0B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C36ED53A142F36B600A83F0B /* TSBorderlessWindow.h */,
+				C36ED53B142F36B600A83F0B /* TSBorderlessWindow.m */,
+				C39DEDDD143F723C00C443F1 /* TSMouseActionView.h */,
+				C39DEDDE143F723C00C443F1 /* TSMouseActionView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C39DCB70142BE6EE00EA4761 /* Apple Scripting */ = {
+			isa = PBXGroup;
+			children = (
+				C39DCB6B142BE65600EA4761 /* TSAppleScriptController.h */,
+				C39DCB6C142BE65600EA4761 /* TSAppleScriptController.m */,
+			);
+			name = "Apple Scripting";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C35AE4A3142947AD00633E02 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C39DEDDF143F723C00C443F1 /* TSMouseActionView.h in Headers */,
+				C39DCB6D142BE65600EA4761 /* TSAppleScriptController.h in Headers */,
+				C36ED53C142F36B600A83F0B /* TSBorderlessWindow.h in Headers */,
+				C39DEDD7143F700600C443F1 /* TSMouseActionViewDelegate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C35AE4A4142947AD00633E02 /* LarussoSTDLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C35AE4C8142947AD00633E02 /* Build configuration list for PBXNativeTarget "LarussoSTDLib" */;
+			buildPhases = (
+				C35AE4A1142947AD00633E02 /* Sources */,
+				C35AE4A2142947AD00633E02 /* Frameworks */,
+				C35AE4A3142947AD00633E02 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LarussoSTDLib;
+			productName = LarussoSTDLib;
+			productReference = C35AE4A5142947AD00633E02 /* libLarussoSTD.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C35AE4B5142947AD00633E02 /* LarussoSTDLibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C35AE4CB142947AD00633E02 /* Build configuration list for PBXNativeTarget "LarussoSTDLibTests" */;
+			buildPhases = (
+				C35AE4B1142947AD00633E02 /* Sources */,
+				C35AE4B2142947AD00633E02 /* Frameworks */,
+				C35AE4B3142947AD00633E02 /* Resources */,
+				C35AE4B4142947AD00633E02 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C35AE4B9142947AD00633E02 /* PBXTargetDependency */,
+			);
+			name = LarussoSTDLibTests;
+			productName = LarussoSTDLibTests;
+			productReference = C35AE4B6142947AD00633E02 /* LarussoSTDLibTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C35AE49C142947AD00633E02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C35AE49F142947AD00633E02 /* Build configuration list for PBXProject "LarussoSTDLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C35AE49A142947AD00633E02;
+			productRefGroup = C35AE4A6142947AD00633E02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C35AE4A4142947AD00633E02 /* LarussoSTDLib */,
+				C35AE4B5142947AD00633E02 /* LarussoSTDLibTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C35AE4B3142947AD00633E02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C35AE4C0142947AD00633E02 /* InfoPlist.strings in Resources */,
+				C35AE4C3142947AD00633E02 /* LarussoSTDLibTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C35AE4B4142947AD00633E02 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C35AE4A1142947AD00633E02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C39DCB6E142BE65600EA4761 /* TSAppleScriptController.m in Sources */,
+				C36ED53D142F36B600A83F0B /* TSBorderlessWindow.m in Sources */,
+				C39DEDE0143F723C00C443F1 /* TSMouseActionView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C35AE4B1142947AD00633E02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C35AE4C5142947AD00633E02 /* LarussoSTDLibTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C35AE4B9142947AD00633E02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C35AE4A4142947AD00633E02 /* LarussoSTDLib */;
+			targetProxy = C35AE4B8142947AD00633E02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C35AE4BE142947AD00633E02 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C35AE4BF142947AD00633E02 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C35AE4C6142947AD00633E02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C35AE4C7142947AD00633E02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C35AE4C9142947AD00633E02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LarussoSTDLib/LarussoSTDLib-Prefix.pch";
+				PRODUCT_NAME = LarussoSTD;
+			};
+			name = Debug;
+		};
+		C35AE4CA142947AD00633E02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LarussoSTDLib/LarussoSTDLib-Prefix.pch";
+				PRODUCT_NAME = LarussoSTD;
+			};
+			name = Release;
+		};
+		C35AE4CC142947AD00633E02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LarussoSTDLibTests/LarussoSTDLibTests-Prefix.pch";
+				INFOPLIST_FILE = "LarussoSTDLibTests/LarussoSTDLibTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C35AE4CD142947AD00633E02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LarussoSTDLibTests/LarussoSTDLibTests-Prefix.pch";
+				INFOPLIST_FILE = "LarussoSTDLibTests/LarussoSTDLibTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C35AE49F142947AD00633E02 /* Build configuration list for PBXProject "LarussoSTDLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C35AE4C6142947AD00633E02 /* Debug */,
+				C35AE4C7142947AD00633E02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C35AE4C8142947AD00633E02 /* Build configuration list for PBXNativeTarget "LarussoSTDLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C35AE4C9142947AD00633E02 /* Debug */,
+				C35AE4CA142947AD00633E02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C35AE4CB142947AD00633E02 /* Build configuration list for PBXNativeTarget "LarussoSTDLibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C35AE4CC142947AD00633E02 /* Debug */,
+				C35AE4CD142947AD00633E02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C35AE49C142947AD00633E02 /* Project object */;
+}

@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/iTunesDesktop/!svn/ver/9/trunk/iTunesDesktop/iTunesDesktop
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/iTunesDesktop/!svn/ver/2/trunk/iTunesDesktop/iTunesDesktop/main.m
+END
+ITDMainViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/iTunesDesktop/!svn/ver/15/trunk/iTunesDesktop/iTunesDesktop/ITDMainViewController.m
+END
+ITunesPlayerConst.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/iTunesDesktop/!svn/ver/9/trunk/iTunesDesktop/iTunesDesktop/ITunesPlayerConst.h
+END
+ITunesConnectorController.m
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/iTunesDesktop/!svn/ver/10/trunk/iTunesDesktop/iTunesDesktop/ITunesConnectorController.m
+END
+ITunesTrack.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/iTunesDesktop/!svn/ver/10/trunk/iTunesDesktop/iTunesDesktop/ITunesTrack.h
+END
+iTunesDesktop-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/iTunesDesktop/!svn/ver/13/trunk/iTunesDesktop/iTunesDesktop/iTunesDesktop-Info.plist
+END
+ITunesPlayerConst.m
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/iTunesDesktop/!svn/ver/10/trunk/iTunesDesktop/iTunesDesktop/ITunesPlayerConst.m
+END
+ITunesPlayerInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/iTunesDesktop/!svn/ver/5/trunk/iTunesDesktop/iTunesDesktop/ITunesPlayerInfo.h
+END
+CurrentTitleWindowSmall.xib
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/iTunesDesktop/!svn/ver/13/trunk/iTunesDesktop/iTunesDesktop/CurrentTitleWindowSmall.xib
+END
+ITunesTrack.m
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/iTunesDesktop/!svn/ver/10/trunk/iTunesDesktop/iTunesDesktop/ITunesTrack.m
+END
+ITunesPlayerInfo.m
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/iTunesDesktop/!svn/ver/5/trunk/iTunesDesktop/iTunesDesktop/ITunesPlayerInfo.m
+END
+ITunesPlayerInfoObserver.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/iTunesDesktop/!svn/ver/4/trunk/iTunesDesktop/iTunesDesktop/ITunesPlayerInfoObserver.h
+END
+iTunesDesktop-Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/iTunesDesktop/!svn/ver/2/trunk/iTunesDesktop/iTunesDesktop/iTunesDesktop-Prefix.pch
+END
+CurrentTitleWindowController.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/iTunesDesktop/!svn/ver/13/trunk/iTunesDesktop/iTunesDesktop/CurrentTitleWindowController.h
+END
+iTunesGetPlayerInfo.scpt
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/iTunesDesktop/!svn/ver/9/trunk/iTunesDesktop/iTunesDesktop/iTunesGetPlayerInfo.scpt
+END
+iTunesSetRatingToCurrentTitle.scpt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/iTunesDesktop/!svn/ver/2/trunk/iTunesDesktop/iTunesDesktop/iTunesSetRatingToCurrentTitle.scpt
+END
+CurrentTitleViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/iTunesDesktop/!svn/ver/9/trunk/iTunesDesktop/iTunesDesktop/CurrentTitleViewController.h
+END
+ITDMainViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/iTunesDesktop/!svn/ver/5/trunk/iTunesDesktop/iTunesDesktop/ITDMainViewController.h
+END
+CurrentTitleWindowController.m
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/iTunesDesktop/!svn/ver/13/trunk/iTunesDesktop/iTunesDesktop/CurrentTitleWindowController.m
+END
+ITunesConnectorController.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/iTunesDesktop/!svn/ver/5/trunk/iTunesDesktop/iTunesDesktop/ITunesConnectorController.h
+END
+CurrentTitleViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/iTunesDesktop/!svn/ver/13/trunk/iTunesDesktop/iTunesDesktop/CurrentTitleViewController.m
+END
